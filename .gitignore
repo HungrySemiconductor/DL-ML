@@ -3,6 +3,3 @@
 .venv/
 .vscode/
 __pycache__/
-
-# Datasets
-mnist_data/
