@@ -12,7 +12,6 @@ x = torch.rand((batch_size, feature))
 print(x.ndimension())   # 输出张量纬度，即2维张量
 print(x.numel())        # 输出张量元素个数，即250
 
-# ========== 取值 ============
 print(x[0, :])   # 取第一个样本的所有特征值
 # print(x[0, :].shape)     # torch.size([25])
 print(x[:, 0])   # 取所有样本的第一个特征值
